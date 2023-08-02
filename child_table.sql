@@ -2,6 +2,7 @@
 --  DDL for Table CHILD
 --------------------------------------------------------
 
+
   CREATE TABLE "KIDSBANK"."CHILD" 
    (	"CHILD_NUM" NUMBER, 
 	"ID" VARCHAR2(40 BYTE), 
