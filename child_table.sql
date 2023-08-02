@@ -1,7 +1,4 @@
 --------------------------------------------------------
---  파일이 생성됨 - 수요일-8월-02-2023   
---------------------------------------------------------
---------------------------------------------------------
 --  DDL for Table CHILD
 --------------------------------------------------------
 
@@ -13,7 +10,7 @@
 	"PHONE" VARCHAR2(50 BYTE), 
 	"JOIN_DATE" DATE, 
 	"NICKNAME" VARCHAR2(20 BYTE), 
-	"REGISTRATION_NUMBER" CHAR(1 BYTE), 
+	"REGISTRATION_NUMBER" VARCHAR2(20 BYTE), 
 	"IS_OPEN" CHAR(1 BYTE)
    ) SEGMENT CREATION IMMEDIATE 
   PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 NOCOMPRESS LOGGING
