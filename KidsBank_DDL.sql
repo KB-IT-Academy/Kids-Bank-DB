@@ -364,4 +364,10 @@
   ALTER TABLE "KIDSBANK"."COMMENTS" ADD CONSTRAINT "COMMENTS_PARENT_NUM_FK" FOREIGN KEY ("PARENT_NUM")
 	  REFERENCES "KIDSBANK"."PARENT" ("PARENT_NUM") ENABLE;
       
-      
+
+-------create sequence--------------------------------
+create sequence kidsbank.child_seq;
+create sequence kidsbank.parent_seq;
+create sequence kidsbank.relation_seq;
+create sequence kidsbank.money_book_seq;
+create sequence kidsbank.comments_seq;
